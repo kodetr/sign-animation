@@ -1,12 +1,12 @@
-import * as THREE from 'https://unpkg.com/three@0.120.1/build/three.module.js';
-import { GLTFLoader } from 'https://unpkg.com/three@0.120.1/examples/jsm/loaders/GLTFLoader';
+import * as THREE from '../js/module.js';
+import { GLTFLoader } from '../js/GLTFLoader.js';
 
-import { EffectComposer } from 'https://unpkg.com/three@0.120.1/examples/jsm/postprocessing/EffectComposer.js';
-import { RenderPass } from 'https://unpkg.com/three@0.120.1/examples/jsm/postprocessing/RenderPass.js';
-import { SAOPass } from 'https://unpkg.com/three@0.120.1/examples/jsm/postprocessing/SAOPass.js';
-import { ShaderPass } from 'https://unpkg.com/three@0.120.1/examples/jsm/postprocessing/ShaderPass.js';
-import { SMAAPass } from 'https://unpkg.com/three@0.120.1/examples/jsm/postprocessing/SMAAPass.js';
-import { FilmShader } from 'https://unpkg.com/three@0.120.1/examples/jsm/shaders/FilmShader.js';
+import { EffectComposer } from '../js/EffectComposer.js';
+import { RenderPass } from '../js/RenderPass.js';
+import { SAOPass } from '../js/SAOPass.js';
+import { ShaderPass } from '../js/ShaderPass.js';
+import { SMAAPass } from '../js/SMAAPass.js';
+import { FilmShader } from '../js/FilmShader.js';
 
 let scene, camera, renderer, composer;
 let backgroundScene, backgroundCamera, backgroundRenderer, backgroundComposer;

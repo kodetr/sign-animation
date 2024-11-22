@@ -415,7 +415,7 @@ function updateRangeSliderStyle(slider) {
 async function init() {
     loadWordList();
 
-    let err = await FSP.init('../models/hand_animated_v6.glb');
+    let err = await FSP.init('models/hand_animated_v6.glb');
     if (err) {
         ldsRing.style.opacity = '0';
         spinnerText.innerHTML = 'error loading assets';
